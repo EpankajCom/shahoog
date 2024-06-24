@@ -1,0 +1,6 @@
+spring:
+  application:
+    name=shahoog
+  data:
+    mongodb:
+      uri = {{$CONNECTION_STRING}}
